@@ -1145,3 +1145,90 @@ box-shadow:
 
 }
 
+/* ==========================================
+   MOBILE FIX
+========================================== */
+
+@media (max-width:600px){
+
+.hero h1{
+    font-size:2.9rem;
+    line-height:1.05;
+}
+
+.hero p{
+    font-size:1rem;
+    line-height:1.7;
+}
+
+.badge{
+    font-size:.9rem;
+    padding:10px 20px;
+}
+
+#envelope{
+    width:300px;
+    height:200px;
+}
+
+.paper-full{
+    width:94%;
+    padding:35px 22px;
+    border-radius:20px;
+}
+
+.paper-header h1{
+    font-size:2.8rem;
+    line-height:1.1;
+}
+
+.paper-body p{
+    font-size:1.15rem;
+    line-height:2;
+    text-align:left;
+    word-break:normal;
+}
+
+.final-line{
+    font-size:1.6rem;
+}
+
+.signature{
+    margin-top:50px;
+    text-align:center;
+    color:#333;
+}
+
+.signature p{
+    color:#555;
+}
+
+.signature h2{
+    color:#222;
+    font-size:2rem;
+}
+
+.paper-line{
+    width:90px;
+}
+
+}
+
+/* Signature */
+
+.signature{
+    margin-top:60px;
+    text-align:center;
+}
+
+.signature p{
+    font-size:1rem;
+    color:#666;
+    margin-bottom:10px;
+}
+
+.signature h2{
+    font-family:"Cormorant Garamond",serif;
+    font-size:2.2rem;
+    color:#222;
+}
